@@ -75,6 +75,6 @@
     "postcss-loader": "^2.1.6",
     "prettier": "^1.16.4",
     "react-hot-loader": "^3.0.0-beta.7",
-    "style-loader": "^0.18.2",
+    "style-loader": "^0.18.2"
   }
 }
