@@ -25,9 +25,9 @@ const {
 } = process.env;
 
 const shopifyConfig = {
-  host: SHOPIFY_APP_HOST,
-  apiKey: SHOPIFY_APP_KEY,
-  secret: SHOPIFY_APP_SECRET,
+  host: process.env.SHOPIFY_APP_HOST,
+  apiKey: process.env.SHOPIFY_APP_KEY,
+  secret: process.env.SHOPIFY_APP_SECRET,
   scope: ['write_orders, write_products, read_content, read_script_tags, read_themes, write_themes'],
   shopStore: new MemoryStrategy(),
   afterAuth(request, response) {
