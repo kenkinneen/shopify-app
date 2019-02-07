@@ -47,7 +47,7 @@ module.exports = {
     libraryTarget: 'var',
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.jsx?$/,
         loader: 'babel-loader',
@@ -56,7 +56,7 @@ module.exports = {
       {
         test: /\.css$/,
         exclude: /node_modules/,
-        loaders: [
+        rules: [
           {
             loader: 'style-loader',
           },
@@ -81,7 +81,7 @@ module.exports = {
       {
         test: /\.css$/,
         include: path.resolve(__dirname, '../node_modules/@shopify/polaris'),
-        loaders: [
+        rules: [
           {
             loader: 'style-loader',
           },
