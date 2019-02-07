@@ -39,6 +39,7 @@
     "knex": "^0.13.0",
     "morgan": "^1.9.1",
     "nodemon": "^1.17.1",
+    "webpack": "^4.29.3",
     "react": "^16.8.1",
     "react-dom": "^16.4.0",
     "react-object-inspector": "^0.2.1",
